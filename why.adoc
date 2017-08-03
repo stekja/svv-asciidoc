@@ -8,7 +8,7 @@ i etaten (automatisering, sky).
 
 == Bakgrunn
 === Generelle utfordringer
-Vi bruker mye tid på å beskrive hvordan vi skal jobbe, hvilke dokumenter
+Vi bruker mye tid på å beskrive *hvordan* vi skal jobbe, hvilke dokumenter
 som skal lages og hva de skal inneholde. Men vi bruker forsvinnende lite tid
 på å legge til rette for at dette blir gjort, samt følge opp at det
 blir gjort.
