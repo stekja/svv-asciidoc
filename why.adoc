@@ -13,13 +13,13 @@ som skal lages og hva de skal inneholde. Men vi bruker forsvinnende lite tid
 på å legge til rette for at dette blir gjort, samt følge opp at det
 blir gjort.
 
-Når dette gås nærmere i sømmene sier mange at årsaken er en kombinasjon av tunge
+Når dette gås nærmere i sømmene sier mange at årsaken ofte er en kombinasjon av tunge
 prosesser, for dårlig tid i kombinasjon med tekniske utfordringer knyttet til
 verktøy, maler, informasjonsgjenfinning mm.
 
-=== Utfordringer knyttet til teknisk dokumentasjon
-* Ofte uoppdatert i forhold til det som beskrives
-* Uklart formål og uklare målgrupper
+=== Utfordringer spesielt knyttet til teknisk dokumentasjon
+* Ofte uoppdatert i forhold til det (systemet/løsningen) som beskrives
+* Uklare formål og målgrupper for dokumentasjonen
 ** Noen ganger fører dette til at det skrives mye unødig, og/eller at
 det *klippes* og limes fra ting som finnes andre steder.
 
