@@ -1,0 +1,27 @@
+= Bruk av AsciiDoc som format for teknisk dokumentasjon automatiser skrivearbeidet
+Steinar Kjærnsrød <stekja@vegvesen.no>; Peter Breunig <peter.breunig@vegvesen.no>
+
+Vi - {author} og {author_2} - foreslår å gjøre en vurdering av om `asciidoc` kan benyttes som format for
+*teknisk dokumentasjon* i Statens vegvesen. Dette vil løse mange utfordringer knyttet
+til skriving, forvaltning og bruk av dokumentasjon (((dokumentasjon))) i dag, samtidig som det passer godt med det som skjer rundt nye driftsplattformer
+i etaten (automatisering, sky).
+
+== Bakgrunn
+=== Generelle utfordringer
+Vi bruker mye tid på å beskrive hvordan vi skal jobbe, hvilke dokumenter
+som skal lages og hva de skal inneholde. Men vi bruker forsvinnende lite tid
+på å legge til rette for at dette blir gjort, samt følge opp at det
+blir gjort.
+
+Når dette gås nærmere i sømmene sier mange at årsaken er en kombinasjon av tunge
+prosesser, for dårlig tid i kombinasjon med tekniske utfordringer knyttet til
+verktøy, maler, informasjonsgjenfinning mm.
+
+=== Utfordringer knyttet til teknisk dokumentasjon
+* Ofte uoppdatert i forhold til det som beskrives
+* Uklart formål og uklare målgrupper
+** Noen ganger fører dette til at det skrives mye unødig, og/eller at
+det *klippes* og limes fra ting som finnes andre steder.
+
+[index]
+== Indeks
