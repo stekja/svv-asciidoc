@@ -1,29 +1,37 @@
-= Bruk av AsciiDoc som format for teknisk dokumentasjon automatiser skrivearbeidet
+= Bruk av AsciiDoc som format for teknisk dokumentasjon i statens vegvesen
 Steinar Kjærnsrød <stekja@vegvesen.no>; Peter Breunig <peter.breunig@vegvesen.no>
 
 Vi - {author} og {author_2} - foreslår å gjøre en vurdering av om `asciidoc` kan benyttes som format for
-*teknisk dokumentasjon* i Statens vegvesen. Dette vil løse mange utfordringer knyttet
-til skriving, forvaltning og bruk av dokumentasjon (((dokumentasjon))) i dag, samtidig som det passer godt med det som skjer rundt nye driftsplattformer
-i etaten (automatisering, sky).
+*teknisk dokumentasjon* i IKT-avdelingen i Statens vegvesen. Dette vil løse mange utfordringer knyttet
+til skriving, forvaltning og bruk av slik dokumentasjon (((dokumentasjon))) i dag, samtidig som det passer godt med det som skjer 
+rundt nye driftsplattformer i etaten (automatisering, sky).
+
+Vi foreslår vurderingen gjennomført ved at `asciidoc` testes ut som format for teknisk dokumentasjon i et utvalgt prosjekt, som 
+en enkel pilot. Vi som står bak forslaget vil da hjelpe til med alt praktisk rundt gjennomføringen, eksempelvis oppsett av verktøyomgivelser og tekniske spørsmål knyttet til de involverte verktøyene.
 
 == Bakgrunn
 === Generelle utfordringer
-Vi bruker mye tid på å beskrive *hvordan* vi skal jobbe, hvilke dokumenter
+Vi bruker mye tid i IKT-avdelingen på å beskrive *hvordan* vi skal jobbe, hvilke dokumenter
 som skal lages og hva de skal inneholde. Men vi bruker forsvinnende lite tid
 på å legge til rette for at det vi sier kan gjøres på en enkel måte, samt følge opp at det
 blir gjort.
 
-Når dette gås nærmere i sømmene sier mange at årsaken ofte er en kombinasjon av tunge
-prosesser, for dårlig tid i kombinasjon med tekniske utfordringer knyttet til
+Så viser det seg også at retningslinjer og prosesser i varierende grad følges. Når dette gås nærmere i sømmene,
+sier mange at årsaken ofte er en kombinasjon av tunge prosesser, for dårlig tid i kombinasjon med tekniske utfordringer knyttet til
 verktøy, maler, informasjonsgjenfinning mm.
+
+IMPORTANT: Gjør vi de riktige tingene og gjør vi de riktige tingene på riktige (smarte) måter?
 
 === Utfordringer spesielt knyttet til teknisk dokumentasjon
 * Ofte uoppdatert i forhold til det (systemet/løsningen) som beskrives
 * Uklare formål og målgrupper for dokumentasjonen
-** Noen ganger fører dette til at det skrives mye unødig, og/eller at
-det *klippes* og limes fra ting som finnes andre steder.
+* Uklart hvor gjeldende maler befinner seg om hvem som eier og forvalter disse
+** Dermed også utydelig hva ulike typer dokumentasjon skal inneholde
+** Resultatet er at man blir prisgitt leverandørens mening om dette - både innhold, utseende, formater mm.
+** Noen ganger fører dette til at det skrives mye unødig, og/eller at det *klippes* og limes fra ting som allerede finnes andre steder.
 
-TIP: Gjør vi de riktige tingene og gjør vi de riktige tingene på riktige (smarte) måter?
+
+
 
 [index]
 == Indeks
