@@ -10,7 +10,7 @@ i etaten (automatisering, sky).
 === Generelle utfordringer
 Vi bruker mye tid på å beskrive *hvordan* vi skal jobbe, hvilke dokumenter
 som skal lages og hva de skal inneholde. Men vi bruker forsvinnende lite tid
-på å legge til rette for at dette blir gjort, samt følge opp at det
+på å legge til rette for at det vi sier kan gjøres på en enkel måte, samt følge opp at det
 blir gjort.
 
 Når dette gås nærmere i sømmene sier mange at årsaken ofte er en kombinasjon av tunge
@@ -22,6 +22,8 @@ verktøy, maler, informasjonsgjenfinning mm.
 * Uklare formål og målgrupper for dokumentasjonen
 ** Noen ganger fører dette til at det skrives mye unødig, og/eller at
 det *klippes* og limes fra ting som finnes andre steder.
+
+TIP: Gjør vi de riktige tingene og gjør vi de riktige tingene på riktige (smarte) måter?
 
 [index]
 == Indeks
