@@ -1,8 +1,12 @@
-= Bruk av AsciiDoc som format for teknisk dokumentasjon i statens vegvesen
+= Bruk av AsciiDoc som format for teknisk dokumentasjon i Statens vegvesen
 Steinar Kjærnsrød <stekja@vegvesen.no>; Peter Breunig <peter.breunig@vegvesen.no>
+v1.0, 4. august, 2017: Work in progress
+
+:imagesdir: https://www.vegvesen.no/_public/vegvesen.no/images/css-bibliotek/svg
 :icons: font
 :toc:
 
+image::svv-logo-print.svg[SVG,200,200,float="right",align="center"]
 Vi - {author} og {author_2} - foreslår å gjøre en vurdering av om `asciidoc` kan benyttes som format for
 *teknisk dokumentasjon* i IKT-avdelingen i Statens vegvesen. Dette vil løse mange utfordringer knyttet
 til skriving, forvaltning og bruk av slik dokumentasjon (((dokumentasjon))) i dag, samtidig som det passer godt med det som skjer 
