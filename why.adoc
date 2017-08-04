@@ -2,6 +2,7 @@
 Steinar Kjærnsrød <stekja@vegvesen.no>; Peter Breunig <peter.breunig@vegvesen.no>
 v1.0, 4. august, 2017: Work in progress
 
+:allow-uri-read: true
 :imagesdir: https://www.vegvesen.no/_public/vegvesen.no/images/css-bibliotek/svg
 :icons: font
 :toc:
