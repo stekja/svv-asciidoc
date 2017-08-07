@@ -7,13 +7,13 @@ v1.0, 4. august, 2017: Work in progress
 :icons: font
 :toc:
 
-image::svv-logo-print.svg[SVG,200,200,float="right",align="center"]
+image::svv-logo-print.svg[SVG,400,400,float="center",align="center"]
 Vi - {author} og {author_2} - foreslår å gjøre en vurdering av om `asciidoc` kan benyttes som format for
 *teknisk dokumentasjon* i IKT-avdelingen i Statens vegvesen. Dette vil løse mange utfordringer knyttet
-til skriving, forvaltning og bruk av slik dokumentasjon (((dokumentasjon))) i dag, samtidig som det passer godt med det som skjer 
+til skriving, forvaltning og bruk av slik dokumentasjon (((dokumentasjon))) i dag, samtidig som det passer godt med det som skjer
 rundt nye driftsplattformer i etaten (automatisering, sky).
 
-Vi foreslår vurderingen gjennomført ved at `asciidoc` testes ut som format for teknisk dokumentasjon i et utvalgt prosjekt, som 
+Vi foreslår vurderingen gjennomført ved at `asciidoc` testes ut som format for teknisk dokumentasjon i et utvalgt prosjekt, som
 en enkel pilot. Vi som står bak forslaget vil da hjelpe til med alt praktisk rundt gjennomføringen, eksempelvis oppsett av verktøyomgivelser og tekniske spørsmål knyttet til de involverte verktøyene.
 
 == Bakgrunn
