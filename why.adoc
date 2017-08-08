@@ -1,43 +1,63 @@
 = Bruk av AsciiDoc som format for teknisk dokumentasjon i Statens vegvesen
 Steinar Kjærnsrød <stekja@vegvesen.no>; Peter Breunig <peter.breunig@vegvesen.no>
-v1.0, 4. august, 2017: Work in progress
+v0.9, 8. august, 2017: Work in progress
 
 :allow-uri-read: true
-:imagesdir: https://www.vegvesen.no/_public/vegvesen.no/images/css-bibliotek/svg
 :icons: font
 :toc:
 
-image::svv-logo-print.svg[SVG,400,400,float="center",align="center"]
-Vi - {author} og {author_2} - foreslår å gjøre en vurdering av om `asciidoc` kan benyttes som format for
-*teknisk dokumentasjon* i IKT-avdelingen i Statens vegvesen. Dette vil løse mange utfordringer knyttet
-til skriving, forvaltning og bruk av slik dokumentasjon (((dokumentasjon))) i dag, samtidig som det passer godt med det som skjer
+image::svv-logo-color.png[SVG,400,400,float="center",align="center"]
+Vi - {author} og {author_2} - foreslår å gjøre en vurdering av om `asciidoc` kan
+ benyttes som format for *teknisk dokumentasjon* i IKT-avdelingen  i
+ Statens vegvesen. Dette vil løse mange utfordringer knyttet
+til skriving, forvaltning og bruk av slik dokumentasjon (((dokumentasjon))) i
+dag, samtidig som det passer godt med det som skjer
 rundt nye driftsplattformer i etaten (automatisering, sky).
 
-Vi foreslår vurderingen gjennomført ved at `asciidoc` testes ut som format for teknisk dokumentasjon i et utvalgt prosjekt, som
-en enkel pilot. Vi som står bak forslaget vil da hjelpe til med alt praktisk rundt gjennomføringen, eksempelvis oppsett av verktøyomgivelser og tekniske spørsmål knyttet til de involverte verktøyene.
+Vi foreslår vurderingen gjennomført ved at `asciidoc` testes ut som format for
+teknisk dokumentasjon i et utvalgt prosjekt, som en enkel pilot. Vi som står bak
+forslaget vil da hjelpe til med alt praktisk rundt gjennomføringen, eksempelvis
+ oppsett av verktøyomgivelser og tekniske spørsmål knyttet til de involverte verktøyene.
 
 == Bakgrunn
 === Generelle utfordringer
 Vi bruker mye tid i IKT-avdelingen på å beskrive *hvordan* vi skal jobbe, hvilke dokumenter
-som skal lages og hva de skal inneholde. Men vi bruker forsvinnende lite tid
+som skal lages og hva de skal inneholde. Men vi bruker for lite tid
 på å legge til rette for at det vi sier kan gjøres på en enkel måte, samt følge opp at det
 blir gjort.
 
-Så viser det seg også at retningslinjer og prosesser i varierende grad følges. Når dette gås nærmere i sømmene,
-sier mange at årsaken ofte er en kombinasjon av tunge prosesser, for dårlig tid i kombinasjon med tekniske utfordringer knyttet til
-verktøy, maler, informasjonsgjenfinning mm.
+Så viser det seg også at retningslinjer og prosesser i varierende grad følges.
+Når dette gås nærmere etter i sømmene, sier mange at årsaken ofte er en
+kombinasjon av tunge prosesser, for dårlig tid i kombinasjon med tekniske
+utfordringer knyttet til verktøy, maler, informasjonsgjenfinning mm.
 
-IMPORTANT: Gjør vi de riktige tingene og gjør vi de riktige tingene på riktige (smarte) måter?
+TIP: Kanskje vi bør spørre - gjør vi de riktige tingene og gjør
+ vi de riktige tingene på riktige (smarte nok) måter?
 
 === Utfordringer spesielt knyttet til teknisk dokumentasjon
-* Ofte uoppdatert i forhold til det (systemet/løsningen) som beskrives
-* Uklare formål og målgrupper for dokumentasjonen
-* Uklart hvor gjeldende maler befinner seg om hvem som eier og forvalter disse
+* *Leseutfordringer*
+** Ofte uoppdatert i forhold til det (systemet/løsningen) som beskrives
+** Uklart hvor offisiell dokumentasjon befinner seg
+** Inneholder ikke det man forventet å finne eller vanskelig å finne det
+* *Skriveutfordringer*
+** Uklare formål og målgrupper for dokumentasjonen
+** Uklart hvor ferdig versjonert dokumentasjon skal plasseres
+** Uklart hvor gjeldende maler befinner seg om hvem som eier og forvalter disse
 ** Dermed også utydelig hva ulike typer dokumentasjon skal inneholde
-** Resultatet er at man blir prisgitt leverandørens mening om dette - både innhold, utseende, formater mm.
-** Noen ganger fører dette til at det skrives mye unødig, og/eller at det *klippes* og limes fra ting som allerede finnes andre steder.
+** Resultatet er at man blir prisgitt leverandørens mening om dette - både
+mht. innhold, utseende, formater mm.
+** Ofte fører dette til at det skrives mye unødig, og/eller at det
+klippes og limes fra ting som allerede finnes andre steder.
 
+== Hva er Asciidoc?
+Asciidoc er et åpent, rent *tekstbasert* format (((tekstbasert format))) laget spesielt med
+tanke på *teknisk dokumentasjon*. For skriving kreves dermed *ingen spesielle verktøy* utover
+en hvilken som helst teksteditor, samtidig som det finnes en rekke "plugins" for de fleste
+editorer og kjente IDE-omgivelser utviklere gjerne bruker.
 
+I tillegg til å være tekstbasert, er formatet strukturmessig semantisk. Det betyr at
+bare ved å lese råteksten, så
+== Hvordan kan Asciidoc løse mange av utfordringene våre?
 
 
 [index]
